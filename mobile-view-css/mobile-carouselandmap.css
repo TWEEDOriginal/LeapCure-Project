@@ -1,0 +1,93 @@
+@media (max-width:750px) {
+#mobile-carouselandmap-section {
+    margin: auto;
+    position: relative;
+width: 100%;
+height: 606px;
+transform: translateY(30px);
+}
+
+#mobile-carousel-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    width: 100%;
+    height: 50%;
+}
+#mobile-map-section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+#mobile-map-text {
+    width: 254px;
+height: 30px;
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color: #000000;
+}
+#mobile-map-section img {
+    width: 375px;
+    height: 182.88%;
+}
+#mobile-carousel-header {
+    width: 283px;
+    height: 66px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+line-height: 22px;
+    text-align: center;
+    
+    color: #000000;
+} 
+#mobile-center-carousel {
+    width: 264.883px;
+    height: 180px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+#mobile-first {
+   margin-left: -200%;  
+}
+#mobile-actual-buttons input{
+    display: none;
+}
+.mobile-slide {
+    width: 264.883px;
+    height: 180px;
+    transition: 1s;
+}
+#mobile-navigation-manual {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mobile-manual-btn {
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    width: 10px;
+height: 10px;
+background: rgba(196, 196, 196, 0.3);
+transition: .5s;
+}
+.mobile-manual-btn-clicked {
+    background: rgba(102, 97, 91, 0.7);
+}
+
+}

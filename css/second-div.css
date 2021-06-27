@@ -1,0 +1,125 @@
+#actual-second-div {
+    max-height: 940px;
+    max-width: 1443px;
+    width: 100vw;
+    height: 125vh;
+    margin: auto;
+    position: relative;
+    z-index: 4;
+}
+#second-div {
+    max-height: 940px;
+    max-width: 1443px;
+    width: 100vw;
+    background: url("../images/PAGS.png");
+    background-size:100% 100%; 
+    background-repeat: no-repeat;
+    height: 125vh;
+}
+#second-div, .blur, #second-div-text {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.blur {
+    max-width: 1443px;
+    width: 100vw;
+    max-height: 544px;
+    height: 70%;
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8999999761581421));
+    opacity: 1;
+    transform: rotate(-180deg);
+    overflow: hidden;
+}
+#second-div-text {
+    max-width: 1443px;
+    width: 100vw;
+    max-height: 544px;
+    height: 50%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+ #research-listen {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #212120;
+    max-width: 759px;
+    max-height: 44px;
+    width: 55.59%;
+    height: 9%;
+    
+ }
+ #patients-connect {
+    max-width: 770px;
+    max-height: 100px;
+    width: 67.4%;
+    height: 25%;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.7%;
+    
+    text-align: center;
+    
+    color: #212120;
+    
+ }
+
+ #health-influencers{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    width: 600px;
+    color: #212120;
+ }
+ #rotating-span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    /* identical to box height */
+    display: inline-block;
+    color: #F26E7D;
+    
+ }
+ .actually-rotate {
+    animation: rotation .5s infinite linear;
+    position: relative;
+   
+ }
+ .rotate-appear {
+    animation: rotation-appear .5s infinite linear;
+    position: relative;
+    
+ }
+ @keyframes rotation-appear {
+    from {
+        transform: translateY(-70%);
+        opacity: .5;
+        }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    }
+    @keyframes rotation {
+        from {
+            transform: translateY(0%);
+            opacity: 1;
+            }
+        to {
+            transform: translateY(70%);
+            opacity: .5;
+        } }
+ 

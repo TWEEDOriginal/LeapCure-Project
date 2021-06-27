@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+#home-page {
+    width: 100%;
+    height: 100%;
+}
+#first-div {
+    margin: auto;
+    max-height: 862px;
+    max-width: 1441px;
+    width: 100vw;
+    height: 106vh;
+    position: relative;
+}
+
+.header {
+   max-height: 86px;
+   max-width: 1440px;
+   width: 100%;
+   height: 9.98%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#advo-loudspeaker{
+    width: 100%;
+    height: 90.02%;
+    background: #DEF1FF;
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav {
+    position: relative;
+    max-height: 44px;
+   max-width: 1311px;
+    width: 91%;
+    height: 51.2%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: white; 
+    border: none;
+}
+.logo {
+    height: 100%;
+    width: 15.2%
+}
+.logo-image{
+    max-height: 43px;
+   max-width: 200px;
+   height: 100%;
+   width: 100%;
+}
+.navigation { 
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+    align-items: center;
+}
+.navigation li {
+    display: inline-block;
+    background: white;
+    margin: 0;
+    
+}
+.navigation li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Montserrat;
+     font-weight: Medium;
+}
+.percent-advo-loudspeaker {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.advocacy-stuff {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateY(25%);
+}
+
+#speaker-image {height: 91%;
+ width: 48%;
+ transform: translateY(9.9%);}
+#lady {
+    max-height: 707px;
+   max-width: 692px;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#inclusive-medical{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    
+}
+#inclusive-medical span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 59px;
+    color: #37669A;
+}
+#illuminate {
+    font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+/* or 135% */
+transform: translateX(30px);
+
+color: rgba(0, 0, 0, 0.87);
+}
+.adv-button {
+    background: #578BC3;
+	color: #FFFFFF;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    max-width: 207px;
+    max-height: 52px;
+    width: 30.3%;
+    height: 12.29%;
+	outline: inherit;
+    transform: translateX(-31%);
+    border-radius: 24px;
+}
+.speaker-blur {
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8999999761581421));
+    opacity: 1;
+    position: absolute;
+    transform: translateY(-99%);
+    overflow: hidden;
+}
+#pink-heart-bg{
+    position: absolute;
+    width: 110px;
+    height: 18px;
+    transform: translate(-105px, 20px);
+    background: rgba(242, 110, 125, 0.2);
+}

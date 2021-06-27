@@ -1,0 +1,120 @@
+@media (max-width: 750px) {
+#mobile-actual-second-div {
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#mobile-second-div {
+    height: 95%;
+    width: 100%;
+    transform: translateY(5%);
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+#mobile-research-listen {
+    width: 59%;
+    height: 9.09%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #212120;
+}
+#mobile-patients-connect {
+    width: 61.96%;
+height: 36.77%;
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 17px;
+
+text-align: center;
+
+color: #212120;
+
+}
+#mobile-advocacy-health {
+    width: 100%;
+    background: url("../images/PAGS.png");
+    background-size:100% 100%; 
+    background-repeat: no-repeat;
+    height: 40%;
+    border: none;
+    outline: none;
+}
+ .mobile-blur, #mobile-second-div-text {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+.mobile-blur {
+    width: 100%;
+    height: 35%;
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8999999761581421));
+    opacity: 1;
+    transform: rotate(-180deg);
+    overflow: hidden;
+}
+#mobile-second-div-text{
+    width: 300px;
+height: 44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #212120;
+}
+#mobile-rotating-span {
+    font-family: Montserrat;
+    width: 100%;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+display: inline-block;
+color: #F26E7D;
+
+}
+.mobile-actually-rotate {
+    animation: mobile-rotation .5s infinite linear;
+    position: relative;
+   
+ }
+ .mobile-rotate-appear {
+    animation: mobile-rotation-appear .5s infinite linear;
+    position: relative;
+    
+ }
+ @keyframes mobile-rotation-appear {
+    from {
+        transform: translateX(-70px);
+        opacity: .5;
+        }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    }
+    @keyframes mobile-rotation {
+        from {
+            transform: translateX(0px);
+            opacity: 1;
+            }
+        to {
+            transform: translateX(70px);
+            opacity: .5;
+        } }
+ 
+
+}

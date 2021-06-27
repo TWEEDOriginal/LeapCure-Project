@@ -1,0 +1,302 @@
+#actual-third-div {
+    margin: auto;
+    position: relative;
+    width: 100vw;
+    max-width: 1443px;
+    max-height: 1112.56px;
+    height: 143vh;
+}
+
+#third-div {
+    margin: auto;
+    position: absolute;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    background: white url('../images/Polygon-1.svg');
+    background-position: right;
+    background-size:contain; 
+    background-repeat: no-repeat;
+    transform: skewY(-2deg) translateY(-4vh);
+    overflow:hidden;
+}
+
+#third-container{
+    margin: auto;
+    position: absolute;
+    z-index: 6;
+    height: 100%;
+    width: 100%;
+    background: inherit;
+}
+#stories{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#stories-section {
+    width: 100%;
+    height: 60%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+#patient-story-header {
+    position: relative;
+    width: 74.8%;
+    height: 11.89%;
+    max-width: 539px;
+    max-height: 88px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+color: #212120;
+}
+
+#role-player {
+    position: relative;
+    width: 94.45%;
+height: 9.3%;
+max-width: 681px;
+max-height: 69px;
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+color: #212120;
+
+}
+#inspire-story {
+    width: 66.4%;
+height: 6.2%;
+    max-width: 479px;
+max-height: 46px;
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+color: #212120;
+}
+
+#border-box {
+    transform: translateX(10%);
+    position: relative;
+    width: 57.97%;
+    height: 30.5%;
+max-width: 418px;
+max-height: 226px;
+border: 1px solid rgba(0,0,0,1);
+border-radius: 10px;
+overflow: hidden;
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+}
+
+#patients-voice {
+    width: 83.25%;
+    height: 20.335%;
+    max-width: 348px;
+max-height: 46px;
+font-family: Merriweather;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+}
+#tell-my-story-button {
+    position: relative;
+    background: #F26E7D;
+	color: #FFFFFF;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+    max-width: 207px;
+    max-height: 52px;
+    width: 49.52%;
+    height: 23.08%;
+	outline: inherit;
+    border-radius: 24px;
+    font-family: Montserrat;
+    text-align: center;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+}
+#svg-container {
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+}
+.vectors {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#vector-1 {
+   /* transform: translate(10%, 40%);
+*/    max-width: 363px;
+    max-height: 253px;
+    width: 50.31%;
+    height: 23.9%;
+  }
+ #vector-1-img{
+     width: 97%;
+     height: 139%;
+     max-height: 350px;
+     max-width: 350px;
+ }
+
+#vector-2 {
+   /* transform: translate(80%, 20%);
+*/
+width: 37.17%;
+height: 25.5%;
+max-width: 268px;
+max-height: 270px;
+  
+}
+#vector-2-img{
+    width: 100%;
+    height: 100%;
+}
+#vector-3 {
+   /* transform: translate(250%, 170%);*/
+
+   width: 37.17%;
+height: 22.3%;
+max-width: 268px;
+max-height: 236px;
+   
+}
+#vector-3-img{
+    width: 100%;
+    height: 100%;
+}
+
+#vector-4 {
+    /*transform: translate(370%, 180%);*/
+    width: 37.17%;
+    height: 17.6%;
+    max-width: 268px;
+    max-height: 186px;
+  
+}
+#vector-4-img{
+    width: 100%;
+    height: 100%;
+}
+#vector-5 {
+    /*transform: translate(270%, 430%);*/
+
+    width: 37.17%;
+    height: 16.55%;
+    max-width: 268px;
+    max-height: 155px;
+   
+}
+#vector-5-img{
+    width: 100%;
+    height: 100%;
+}
+#vector-6 {
+    /*transform: translate(240%, 150%);*/
+    width: 56%;
+    height: 31.6%;
+    max-width: 404px;
+    max-height: 334px;
+   
+}
+#vector-6-img{
+    width: 114.9%;
+    height: 138.9%;
+}
+
+.svg-image, .svg-text, .square-svg-text {
+    position: absolute;
+}
+.svg-text {
+    width: 50%;
+    height: 40%;
+    margin: auto;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #212120;
+    line-height: 18px;
+}
+.bold-svg-text {
+    font-weight: bold;
+}
+.square-svg-text {
+    width: 75%;
+    height: 55%;
+    margin: auto;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #212120;
+    line-height: 18px;
+}
+@media (max-width: 1400px) { 
+    .svg-text {
+        
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .square-svg-text {
+        height: 45%;
+        font-size: 12px;
+        line-height: 14px;
+    }
+   
+ }
+
+ @media (max-width: 1150px) { 
+    .svg-text {
+        
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .square-svg-text {
+        height: 40%;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    #patient-story-header {
+       
+        font-size: 28px;
+        line-height: 32px;
+        }
+        
+        #role-player,  #inspire-story, #patients-voice{
+        font-size: 14px;
+        line-height: 18px;
+        
+        }
+        
+        #tell-my-story-button {
+            
+        font-size: 16px;
+        line-height: 20px;
+        }
+ }

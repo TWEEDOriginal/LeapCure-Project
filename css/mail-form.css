@@ -1,0 +1,110 @@
+#mailing-form{
+    margin: auto;
+    position: relative;
+    width: 100vw;
+    max-width: 1443px;
+    max-height: 514px;
+    height: 70vh;
+    background: white url('../images/blue-message.svg');
+    background-position: center;
+    background-size:contain; 
+    background-repeat: no-repeat;
+    display: flex;
+}
+#text-field, #form-field {
+width: 50%;
+height:100%;
+
+}
+#text-field, #mobile-text-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#form-field  {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+#text-field-header{
+    width: 368px;
+    height: 88px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+
+color: #FFFFFF;
+}
+#text-field-content{
+    width: 427px;
+height: 69px;
+
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+}
+#actual-email-form {
+    width: 500px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 15px 80.6px 105.701px 25px rgba(51, 51, 51, 0.1);
+    border-radius: 20px;
+    
+}
+#real-form, #mobile-real-form {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+.input-div, .mobile-input-div {
+    width: 100%;
+}
+#email, #name, #research {
+    width: 100%;
+    padding: 12px 20px;
+  margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #email, #name {
+      height: 40px;
+  }
+  #research  {
+      height: 120px;
+  }
+  #email-button {
+    width: 40%;
+    height: 40px;
+    background: #578BC3;
+	color: #FFFFFF;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    border: none;
+    border-radius: 24px;
+  }
+  .email-labels{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #2B2B2B;
+    
+  }

@@ -1,0 +1,181 @@
+#mobile-home-page {
+    display: none;
+}
+@media (max-width: 750px) {
+    #home-page {
+        display: none;
+    }
+    #mobile-home-page{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    #mobile-first-div {
+        margin: auto;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+    }
+    .mobile-header {
+        width: 100%;
+        height: 11.02%;
+       
+    }
+    #mobile-scroll-bar-container {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        transform: translateY(-300vh);
+        transition: 0.8s ease;
+
+    }
+    .mobile-scroll-bar {
+        position: absolute;
+        float: left;
+        z-index: 1000;
+        height: 369px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        background: #FFFFFF;
+    }
+    .mobile-scroll-bar a {
+        text-decoration: none;
+        color: #212120;
+    }
+    .mobile-navigation {
+        display: flex;
+        align-items: center;
+    }
+    .mobile-logo-menu-bar {
+        display: inline-block;
+    }
+    .mobile-remove-button {
+        display: none;
+    }
+.scrollbar-big-text, .scrollbar-small-text{
+    font-family: Montserrat;
+font-style: normal;
+
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #212120;
+margin-left: 30px;
+}
+.scrollbar-big-text {
+    font-weight: bold;
+}
+.scrollbar-small-text {
+    font-weight: 500;
+}
+    .mobile-nav {
+        margin: auto;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    }
+    #mobile-advo-loudspeaker {
+        background: #DEF1FF;
+        margin: auto;
+        width: 100%;
+        height: 88.98%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .mobile-percent-advo-loudspeaker {
+        height: 53%;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #mobile-speaker-image{
+        height: 45.57%;
+        width: 53.87%;
+    }
+      #mobile-lady {
+          height: 100%;
+          width: 100%;
+
+      }
+      #mobile-advocacy-group {
+          width: 100%;
+          height: 80px;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: space-around;
+      }
+      #mobile-inclusive-medical{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        width: 291px;
+        height: 21px;
+        color: #212120;
+        
+    }
+    #mobileadvocacyspan{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        width: 177px;
+height: 41px;
+        text-align: center;
+        color: #37669A;
+    }
+    #mobile-illuminate {
+        width: 80.27%;
+height: 30px;
+        font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 135% */
+    display: flex;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.87);
+    }
+    .mobile-adv-button {
+        background: #578BC3;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        width: 130px;
+        height: 40px;
+        border-radius: 24px;
+        font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+    }
+    .mobile-speaker-blur {
+        width: 100%;
+        height: 30vh;
+        background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.8999999761581421));
+        opacity: 1;
+        position: absolute;
+        transform: translateY(-99%);
+        overflow: hidden;
+    }
+}
+

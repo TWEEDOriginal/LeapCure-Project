@@ -1,0 +1,212 @@
+#pink-div{
+    margin: auto;
+    position: relative;
+    max-width: 1440px;
+    width: 100vw;
+}
+#regular-shaped{
+    height: 1043px;
+    width: 100%;
+    background: #FEF0F2;
+}
+#irregular-shaped{
+    width: 100%;
+}
+#valuesandmission {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#core-values{
+    height: 44px;
+    width: 303px;
+    font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 44px;
+color: #F26E7D;
+
+
+}
+
+#mission {height: 52px;
+    width: 850px;    
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+transform: translateY(50px);
+color: #000000;
+}
+#rep-flex-items {
+    height: 840px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.rep-flex-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rep-flex-item {
+    height: 300px;
+width: 347px;
+
+}
+.rep-flex-header {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 21.0365px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.rep-flex-content {
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+/* or 23px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+#last-about{
+    margin: auto;
+    position: relative;
+    max-width: 1440px;
+    width: 100vw;
+}
+#regular-last{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#irregular-last {
+width: 1440px;
+height: 391px;
+background: white  url('../images/join_our_team.svg');
+background-position: bottom;
+background-size:contain; 
+background-repeat: no-repeat;
+
+} 
+#flex-start_small{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+#smaller-last{
+    width: 1143px;
+height: 681px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#header-last {
+    width: 728px;
+height: 96px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+text-align: center;
+color: #000000;
+
+}
+#pink-bg{
+    position: absolute;
+    width: 500px;
+    height: 18px;
+    transform: translate(110px, -20px);
+    background: rgba(242, 110, 125, 0.2);
+}
+#header-content {
+    width: 1143px;
+height: 525px;
+font-family: Merriweather;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+
+color: #000000;
+
+}
+
+#team_join_header {
+    width: 273px;
+height: 44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+margin-top: 10px;
+margin-bottom: 15px;
+
+color: #000000;
+
+}
+#team_join_content {
+    width: 1135px;
+height: 44px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 25px;
+color: #000000;
+
+}
+#open-positions-button{
+    width: 243px;
+    height: 54px;
+	color: #FFFFFF;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+    border: none;
+    background: #578BC3;
+border-radius: 40px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+}

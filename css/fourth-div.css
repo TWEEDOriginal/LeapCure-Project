@@ -1,0 +1,105 @@
+#fourth-div {
+    margin: auto;
+    position: relative;
+    width: 100vw;
+    max-width: 1443px;
+    max-height: 1442px;
+    height: 200vh;
+}
+
+#carousel-section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+#map-section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+#map-text {
+    width: 791px;
+height: 29px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+#carousel-header {
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+#sixty, #mobile-sixty {
+    color: #F26E7D;
+}
+.carousel-svgs {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+#center-carousel {
+    width: 621px;
+    height: 422px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+}
+.smaller-card {
+    width: 522.03px;
+    height: 343px;
+    opacity: 0.4;
+}
+
+.big-card {
+    width: 621px;
+    height: 422px;
+    
+}
+#first {
+    margin-left:-160%;
+}
+#actual-buttons input{
+    display: none;
+}
+.slide {
+    transition: 1s;
+}
+#navigation-manual {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-60px);
+}
+
+.manual-btn {
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    width: 20px;
+height: 20px;
+background: rgba(196, 196, 196, 0.3);
+transition: .5s;
+}
+.manual-btn-clicked {
+    background: rgba(102, 97, 91, 0.7);
+}
+
